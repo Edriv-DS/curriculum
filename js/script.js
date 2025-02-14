@@ -47,7 +47,7 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading, .skill-box',{ origin: 'top'});
 ScrollReveal().reveal('.home-img, .about-img, .contact-img, .skills-container',{ origin: 'bottom'});
-ScrollReveal().reveal('.home-content h1, .expe-content, .contact-info',{ origin: 'left'});
+ScrollReveal().reveal('.home-content h1, .expe-content, .about-content h3, .contact-info',{ origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content p',{ origin: 'right'});
 
 
