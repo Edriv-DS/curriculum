@@ -535,6 +535,14 @@ span {
 	html {
 		font-size: 50%;
 	}
+	.contact-info {
+		flex-direction: column;
+	}
+	
+	.contact-img img {
+		width: 80vw;
+		margin-top: 3rem;
+	}
 }
 
 @media (max-width: 365px) {
@@ -549,6 +557,11 @@ span {
 
 	.contact-info {
 		flex-directions: column;
+	}
+	
+	.contact-img img {
+		width: 80vw;
+		margin-top: 3rem;
 	}
 	
 	.footer {
