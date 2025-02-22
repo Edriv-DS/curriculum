@@ -546,6 +546,10 @@ span {
 		width: 90vw;
 		
 	}
+
+	.contact-info {
+		flex-directions: column;
+	}
 	
 	.footer {
 		flex-direction: column-reverse;
