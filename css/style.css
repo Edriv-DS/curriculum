@@ -520,8 +520,8 @@ span {
 		
 	}
 	
-	.contact {
-		flex-direction: column-reverse;
+	.contact-info {
+		flex-direction: column;
 	}
 	
 	.contact-img img {
