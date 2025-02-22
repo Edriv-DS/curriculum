@@ -151,9 +151,9 @@ span {
 	transition: .5s ease;
 }
 
-.social-media img {
+/*.social-media img {
 	width: 2.5rem;
-}
+}*/
 
 .social-media a:hover {
 	background: var(--main-color);
