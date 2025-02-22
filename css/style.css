@@ -483,7 +483,7 @@ span {
 	}
 	
 	.home {
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 	
 	.home-content h3 {
@@ -525,7 +525,7 @@ span {
 	}
 	
 	.contact-info {
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 	
 	.contact-img img {
@@ -540,7 +540,7 @@ span {
 		font-size: 50%;
 	}
 	.contact-info {
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 	
 	.contact-img img {
