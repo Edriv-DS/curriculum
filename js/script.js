@@ -86,3 +86,8 @@ const typed = new Typed('.multiple-text',{
 	backDelay: 800,
 	loop: true
 });
+
+/*================================block page========================*/
+document.addEventListener('contextmenu', function (e){
+	e.preventDefault();
+});
