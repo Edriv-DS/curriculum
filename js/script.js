@@ -87,7 +87,7 @@ const typed = new Typed('.multiple-text',{
 	loop: true
 });
 
-/*================================block page========================*/
+/*================================block copy page========================*/
 document.addEventListener('contextmenu', function (e){
 	e.preventDefault();
 });
