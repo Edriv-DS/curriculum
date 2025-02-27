@@ -8,18 +8,18 @@
 	text-decoration: none;
 	border: none;
 	outline: none;
-	font-family: 'Roboto', serif;
+	font-family: 'Inter', serif;
 }
 
 :root {
 	--bg-color: #1f242d;
 	--second-bg-color: #323946;
 	--text-color: #fff;
-	--main-color: #0ef;
+	--main-color: #57c8ad;
 }
 
 html {
-	font-size: 65%;
+	font-size: 68%;
 	overflow-x: hidden;
 	
 }
