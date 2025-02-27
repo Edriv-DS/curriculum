@@ -148,7 +148,7 @@ span {
 	width: 4rem;
 	height: 4rem;
 	background: transparent;
-	border: 0.4rem solid var(--main-color);
+	border: 1rem solid var(--main-color);
 	border-radius: 50%;
 	font-size: 2rem;
 	color: var(--main-color);
