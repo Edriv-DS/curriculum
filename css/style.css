@@ -153,7 +153,7 @@ span {
 	font-size: 2rem;
 	color: var(--main-color);
 	margin: 3rem 1.5rem 3rem 0;
-	border: 0.125rem solid var(--main-color);
+	border: 0.2rem solid var(--main-color);
 	transition: .5s ease;
 }
 
