@@ -575,7 +575,7 @@ span {
 		height: 100%;
 		object-fit: cover;
 		margin-top: 3rem;
-		/*flex-direction: column-reverse;*/
+		flex-direction: column-reverse;
 	}
 	
 	.footer {
