@@ -538,7 +538,7 @@ span {
 		height: 250px;
 		object-fit: cover;
 		margin-top: 3rem;
-		flex-direction: column-reverse;
+		/*flex-direction: column-reverse;*/
 	}
 
 }
@@ -556,7 +556,7 @@ span {
 		height: 250px;
 		object-fit: cover;
 		margin-top: 3rem;
-		flex-direction: column-reverse; 
+		/*flex-direction: column-reverse; */
 	}
 }
 
@@ -575,7 +575,7 @@ span {
 		height: 250px;
 		object-fit: cover;
 		margin-top: 3rem;
-		flex-direction: column-reverse;
+		/*flex-direction: column-reverse;*/
 	}
 	
 	.footer {
