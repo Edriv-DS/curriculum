@@ -551,13 +551,13 @@ span {
 		flex-direction: column-reverse;
 	}
 	
-	.contact-img img {
+	/*.contact-img img {
 		width: 400px;
 		height: 250px;
 		object-fit: cover;
 		margin-top: 3rem;
-		/*flex-direction: column-reverse; */
-	}
+		flex-direction: column-reverse;
+	}*/
 }
 
 @media (max-width: 365px) {
