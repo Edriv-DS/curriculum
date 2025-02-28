@@ -549,7 +549,9 @@ span {
 	}
 	
 	.contact-img img {
-		width: 100%;
+		width: 400px;
+		height: 250px;
+		object-fit: cover;
 		margin-top: 3rem;
 		flex-direction: column-reverse; 
 	}
