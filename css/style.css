@@ -94,9 +94,10 @@ section {
 	
 }
 
+/*1era img*/
 .home-img img {
 	width: 35vw;
-	margin-left: 2rem;
+	margin-left: 2rem; /* Separa la img del txt*/
 	animation: floatImage 4s ease-in-out infinite;
 	/*margin-bottom: -16;*/
 }
@@ -141,6 +142,8 @@ span {
 	text-align: justify;
 }
 
+/*********************** Social Media ************************/
+
 .social-media a {
 	display: inline-flex;
 	justify-content: center;
@@ -183,6 +186,8 @@ span {
 	box-shadow: none;
 }*/
 
+/*********************************** About me **********************************/
+
 .about {
 	display: flex;
 	justify-content: center;
@@ -191,6 +196,7 @@ span {
 	background: var(--second-bg-color);
 }
 
+/*2da img*/
 .about-img img {
 	width: 35vw;
 	
@@ -221,6 +227,8 @@ span {
 	text-align: justify;
 	
 }
+
+/***************************** Experience *******************************/
 
 .expe h3 {
 	font-size: 3rem;
@@ -293,22 +301,6 @@ span {
 	text-align: justify;
 	
 }
-
-/*.contact-section {
-	background: #fff;
-	padding: 50px 20px;
-}
-		
-.contact-section h1 {
-	font-size: 3em;
-	margin-bottom: 10px;
-}
-        
-.contact-section p {
-	color: #666;
-	max-width: 600px;
-	margin: 0 auto 20px;
-}*/
 
 .contact-info {
 	margin-top: 70px;
