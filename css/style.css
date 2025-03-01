@@ -54,7 +54,7 @@ section {
 }
 
 .header.sticky {
-	border-bottom: .1rem solid;
+	border-bottom: .1rem solid rgba(0, 0, 0, .2);
 	color: #F5F5DC;
 	
 }
@@ -96,7 +96,7 @@ section {
 
 .home-img img {
 	width: 35vw;
-	margin-left: 20px;
+	margin-left: 2rem;
 	animation: floatImage 4s ease-in-out infinite;
 	/*margin-bottom: -16;*/
 }
@@ -205,6 +205,7 @@ span {
 
 .about-content h2 {
 	text-align: left;
+	font-size: 4.5rem;
 	line-height: 1.2;
 	
 }
@@ -289,6 +290,7 @@ span {
 .skills-box p {
 	font-size: 1.6rem;
 	margin: 1rem 0 3rem;
+	text-align: justify;
 	
 }
 
