@@ -358,6 +358,9 @@ span {
 }
 
 @media (max-width: 991px) {
+	#menu-icon {
+		display: block;
+	}
 	.header {
 		padding: 2rem 3%;
 	}
