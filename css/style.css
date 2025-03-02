@@ -1,4 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100..900;1,100..900&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
@@ -94,12 +93,11 @@ section {
 	
 }
 
-/*1era img*/
+/*===================================== img1 ==================================================*/
 .home-img img {
 	width: 35vw;
 	margin-left: 2rem; /* Separa la img del txt*/
 	animation: floatImage 4s ease-in-out infinite;
-	/*margin-bottom: -16;*/
 }
 
 @keyframes floatImage {
@@ -169,23 +167,6 @@ span {
 	width: 2rem;
 }
 
-/*.btn {
-	display: inline-block;
-	padding: 1rem 2.8rem;
-	background: var(--main-color);
-	border-radius: 4rem;
-	box-shadow: 0 0 1rem var(--main-color);
-	font-size: 1.6rem;
-	color: var(--second-bg-color);
-	letter-spacing: .1rem;
-	font-weight: 600;
-	transition: .5e ease;
-}
-
-.btn:hover {
-	box-shadow: none;
-}*/
-
 /*********************************** About me **********************************/
 
 .about {
@@ -196,7 +177,7 @@ span {
 	background: var(--second-bg-color);
 }
 
-/*2da img*/
+/*=========================================== img2 ==============================================*/
 .about-img img {
 	width: 35vw;
 	
@@ -296,7 +277,7 @@ span {
 }
 
 .skills-box p {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	margin: 1rem 0 3rem;
 	text-align: justify;
 	
@@ -314,71 +295,24 @@ span {
 }
 
 .contact-info div {
-    text-align: center;
+	text-align: center;
 }
 
 .contact-info div h3 {
-    margin: 10px 0;
-    color: var(--main-color);
+	margin: 10px 0;
+	color: var(--main-color);
 }
 
 .contact-info div p {
-    margin: 5px 0;
+	margin: 5px 0;
 }
 
-*.contact-img img{
+.contact-img img{
 	width: 100%;
-	height: 100%;
-	margin: 10px auto;
-	padding: 0;
 	object-fit: cover;
 	display: block;
 	
 }
-
-/*.contact form {
-	max-width: 70rem;
-	margin: 1rem auto;
-	text-align: center;
-	margin-bottom: 3rem;
-	
-}
-
-.contact form .input-box {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	
-}
-
-.contact form .input-box input,
-.contact form textarea {
-	width: 100%;
-	padding: 1.5rem;
-	font-size: 1.6rem;
-	color: var(--text-color);
-	background: var(--second-bg-color);
-	border-radius: .8rem;
-	margin: .7rem 0;
-	
-}
-
-.contact form .input-box input {
-	width: 49%;
-	
-}
-
-.contact form textarea {
-	resize: none;
-	
-}
-
-.contact form .btn {
-	margin-top: 2rem;
-	cursor: pointer;
-	
-}*/
-
 
 .footer {
 	display: flex;
@@ -415,7 +349,7 @@ span {
 	
 }
 
-/*Breakpoints*/
+/*=========================================== Media Query ==================================================*/
 
 @media (max-width: 1200px) {
 	html {
@@ -463,8 +397,8 @@ span {
 		width: 100%;
 		padding: 1rem 3%;
 		background: var(--bg-color);
-		border-top: .1rem solid;
-		box-shadow: 0 .5rem 1rem;
+		border-top: .1rem solid rgba(0, 0, 0, .2);
+		box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 		display: none; 
 		
 	}
@@ -482,7 +416,7 @@ span {
 	}
 	
 	.home {
-		flex-direction: column-reverse;
+		flex-direction: column;
 	}
 	
 	.home-content h3 {
@@ -513,8 +447,9 @@ span {
 	}
 	
 	.about img {
-		min-height: auto;
-		margin-top: 4rem;
+		height: 70vw;
+		width: 60vw;
+		/*margin-top: 4rem;*/
 		
 	}
 	
@@ -526,15 +461,6 @@ span {
 	.contact-info {
 		flex-direction: column-reverse;
 	}
-	
-	/*.contact-img img {
-		width: 400px;
-		height: 250px;
-		object-fit: cover;
-		margin-top: 3rem;
-		flex-direction: column-reverse;
-	}*/
-
 }
 
 @media (max-width: 450px) {
@@ -542,16 +468,8 @@ span {
 		font-size: 50%;
 	}
 	.contact-info {
-		flex-direction: column-reverse;
-	}
-	
-	/*.contact-img img {
-		width: 400px;
-		height: 250px;
 		object-fit: cover;
-		margin-top: 3rem;
-		flex-direction: column-reverse;
-	}*/
+	}
 }
 
 @media (max-width: 365px) {
@@ -560,7 +478,7 @@ span {
 	}
 	
 	.about-img img {
-		width: 90vw;
+		width: auto;
 		
 	}
 
