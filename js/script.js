@@ -109,11 +109,11 @@ document.getElementById("form").addEventListener("submit", function(event) {
 		document.getElementById("respuesta").style.color = "green";
 		consolo("Datos enviados correctamente. Gracias por escribir.");
     })
-    /*.catch(error => {
+    .catch(error => {
 		document.getElementById("respuesta").innerText = "Error al enviar los datos";
         document.getElementById("respuesta").style.color = "red";
 		console.error("Error:", error);
-    });*/
+    });
 
     this.reset(); // Opcional: limpiar el formulario después del envío
 });
