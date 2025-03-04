@@ -99,7 +99,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
 	
 	let formData = new FormData(this); // Captura los datos del formulario
 	
-	fetch("https://github.com/Edriv-DS/curriculum/", {  /*http://localhost:5000/guardar*/
+	fetch("http://localhost:5000/guardar", {  
 		method: "POST",
 		body: formData
     })
