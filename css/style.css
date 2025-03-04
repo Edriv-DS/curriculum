@@ -167,6 +167,25 @@ span {
 	width: 2rem;
 }
 
+/*==================================== Botton =================================*/
+
+.btn {
+	display: inline-block;
+	padding: 1rem 2.8rem;
+	background: var(--main-color);
+	border-radius: 4rem;
+	box-shadow: 0 0 1rem var(--main-color);
+	font-size: 1.6rem;
+	color: var(--second-bg-color);
+	letter-spacing: .1rem;
+	font-weight: 600;
+	transition: .5s ease;
+}
+
+.btn:hover {
+	box-shadow: none;
+}
+
 /*********************************** About me **********************************/
 
 .about {
@@ -282,6 +301,59 @@ span {
 	text-align: justify;
 	
 }
+/*================================ Form ==================================*/
+
+.formulario h2 {
+	margin-bottom: 3rem;
+}
+
+.formulario form {
+	max-width: 70rem;
+	margin: 1rem auto;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.formulario form .input-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.formulario form .input-box input,
+.formulario form textarea {
+	width: 100%;
+	padding: 1.5rem;
+	font-size: 1.6rem;
+	color: var(--text-color);
+	background: var(--second-bg-color);
+	border-radius: .8rem;
+	margin: .7rem 0;
+}
+
+.formulario form .input-box input {
+	width: 49%;
+}
+
+.formulario form textarea {
+	resize: none; 
+}
+
+.formulario form .btn {
+	margin-top: 2rem;
+	cursor: pointer;
+}
+
+.warningMessage h4 {
+	text-align: center;
+}
+
+/*============================================== My contact ====================*/
+
+.contact {
+	background: var(--second-bg-color); 
+	
+}
 
 .contact-info {
 	margin-top: 70px;
@@ -313,6 +385,8 @@ span {
 	display: block;
 	
 }
+
+/*================================================= Footer ============================*/
 
 .footer {
 	display: flex;
@@ -376,6 +450,10 @@ span {
 	.skills {
 		padding-bottom: 7rem;
 		
+	}
+
+	.formulario {
+		min-height: auto;
 	}
 	
 	.contact {
@@ -452,13 +530,17 @@ span {
 	.about img {
 		height: 70vw;
 		width: 60vw;
-		/*margin-top: 4rem;*/
 		
 	}
 	
 	.skills h2 {
 		margin-bottom: 3rem;
 		
+	}
+
+	.contact-img img {
+		object-fit: cover;
+		width: 100%;
 	}
 	
 	.contact-info {
@@ -470,6 +552,11 @@ span {
 	html {
 		font-size: 50%;
 	}
+
+        .formulario form .input-box input {
+		width: 100%;
+	}
+	
 	.contact-info {
 		object-fit: cover;
 	}
