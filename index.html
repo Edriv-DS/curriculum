@@ -26,6 +26,7 @@
 		<a href = "#about">Sobre Mí</a>
 		<a href = "#expe">Experiencia</a>
 		<a href = "#skills">Habilidades</a>
+		<a href = "#formulario">Formulario</a>
 		<a href = "#contact">Contacto</a>
 		</nav>
 		
@@ -200,7 +201,36 @@
 			</div>
 		</div>
 	</section>
-	
+
+        <section class = "formulario" id = "formulario">
+		<h2 class = "heading">Me puedes <span>escribir en:</span></h2>
+		
+		<form id = "form" action="http://localhost:5000/guardar" method="post">
+			<div class = "input-box">
+				<input type = "text" id = "nombre" name = "nombre" placeholder = "*Nombre Completo" required>
+				<input type = "email" id = "email" name = "email" placeholder = "*Dirección de e-mail" required>
+			</div>
+			<div class = "input-box">
+				<input type = "number" id = "numero" name = "numero" placeholder = "*Número de teléfono" required>
+				<input type = "text" id = "asunto" name = "asunto" placeholder = "*Asunto" required>
+			</div>
+			<div class = "input-box">
+				<textarea type = "text" id = "texto" name = "texto" cols = "30" rows = "10" placeholder = "*Tu mensaje" required></textarea>
+			</div>
+			
+			<!------------- Botón de enviar ------------->
+			<input type = "submit" value = "Enviar" class = "btn">
+			<!--<input type = "submit" onclick = "enviarForm(event)" id = "enviar" value = "Enviar" class = "btn">-->
+			
+		</form>
+		<div class="warning" id="warningMessage">
+			<p>*Requerido.</p>
+			<p>**Asegúrese de ingresar información válida. No será compartida.</p>
+		</div>
+		<br>
+		<p id = "respuesta"></p>
+	</section>
+
 	<section class = "contact" id = "contact">
 		<h2 class = "heading"><span>¿Hablamos...?</span></h2>
 		
@@ -219,6 +249,14 @@
 				<h3>Dirección de e-mail ✉️</h3>
 				<p>reduardoj@gmail.com</p>
 				<p>reduardoj@hotmail.com</p>
+			</div>
+			<div>
+				<h3>Redes Sociales</h3>
+				<br>
+				<i class='bx bxl-instagram'></i>
+				<i class='bx bxl-facebook'></i>
+				<i class='bx bxl-linkedin-square' ></i>
+				<i class='bx bxs-envelope' ></i>
 			</div>
 		</div>
 		<br>
