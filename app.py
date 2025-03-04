@@ -10,7 +10,7 @@ def submit():
 	asunto = request.form.get('asunto')
 	texto = request.form.get('texto')
 	 # Process the data (for example, print to the console or save to a file/database)
-    	print(f"Received submission: Username={username}, Email={email}")
+    	print(f"Received submission: Nombre={nombre}, Email={email}, Numero={numero}, Asunto={asunto}, Texto={texto}")
     
     	# Respond back to the client
    	 return "Thank you for your submission!"
