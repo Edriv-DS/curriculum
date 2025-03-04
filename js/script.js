@@ -91,3 +91,46 @@ const typed = new Typed('.multiple-text',{
 document.addEventListener('contextmenu', function (e){
 	e.preventDefault();
 });
+
+/*================================== Envíar formulario ============================*/
+
+document.getElementById("form").addEventListener("submit", function(event) {
+	event.preventDefault(); // Evita que la página se recargue
+	
+	let formData = new FormData(this); // Captura los datos del formulario
+	
+	fetch("http://localhost:5000/guardar", {
+		method: "POST",
+		body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+		document.getElementById("respuesta").innerText = data.mensaje;
+		document.getElementById("respuesta").style.color = "green";
+		consolo("Datos enviados correctamente. Gracias por escribir.");
+    })
+    /*.catch(error => {
+		document.getElementById("respuesta").innerText = "Error al enviar los datos";
+        document.getElementById("respuesta").style.color = "red";
+		console.error("Error:", error);
+    });*/
+
+    this.reset(); // Opcional: limpiar el formulario después del envío
+});
+
+/*============================= Ingresar correos válidos =====================================*/
+
+ document.getElementById('emailForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const emailInput = document.getElementById('email');
+            const errorMessage = document.getElementById('error-message');
+            const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            
+            if (!emailPattern.test(emailInput.value)) {
+                errorMessage.textContent = "Por favor, ingrese un correo electrónico válido.";
+            } else {
+                errorMessage.textContent = "";
+                alert("Correo válido: " + emailInput.value);
+                emailInput.value = "";
+            }
+        });
