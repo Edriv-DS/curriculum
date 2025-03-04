@@ -99,7 +99,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
 	
 	let formData = new FormData(this); // Captura los datos del formulario
 	
-	fetch("http://localhost:5000/guardar", {  
+	fetch("https://ngrok.com/r/iep/submit", {  
 		method: "POST",
 		body: formData
     })
