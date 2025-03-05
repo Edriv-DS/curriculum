@@ -111,7 +111,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
     })
     .catch(error => {
 		document.getElementById("respuesta").innerText = "Error al enviar los datos";
-        document.getElementById("respuesta").style.color = "red";
+        	document.getElementById("respuesta").style.color = "red";
 		console.error("Error:", error);
     });
 
