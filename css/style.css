@@ -314,6 +314,7 @@ span {
 	left: 0;
 	right: 0;
 	bottom: 0;
+	transform: translate(-50%, -50%) rotate(-45deg);
 	background: url('https://github.com/user-attachments/assets/09aed28d-0e10-4749-999a-e8eca585a06e') no-repeat center center;
 	background-size: contain; /* O cover, según tus necesidades */
 	opacity: 0.2; /* Ajusta la transparencia de la marca de agua */
@@ -554,6 +555,10 @@ span {
 	.skills h2 {
 		margin-bottom: 3rem;
 		
+	}
+
+	.water-section::before {
+		font-size: 3rem;
 	}
 
 	.contact-img img {
