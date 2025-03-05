@@ -303,6 +303,24 @@ span {
 }
 /*================================ Form ==================================*/
 
+.watermark-section {
+	position: relative;
+}
+
+.watermark-section::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: url('https://github.com/user-attachments/assets/09aed28d-0e10-4749-999a-e8eca585a06e') no-repeat center center;
+	background-size: contain; /* O cover, según tus necesidades */
+	opacity: 0.2; /* Ajusta la transparencia de la marca de agua */
+	pointer-events: none; /* Permite interactuar con el contenido sin obstrucciones */
+	z-index: 1;
+}
+
 .formulario h2 {
 	margin-bottom: 3rem;
 }
