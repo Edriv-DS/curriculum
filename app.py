@@ -9,11 +9,13 @@ def submit():
 	numero = request.form.get('numero')
 	asunto = request.form.get('asunto')
 	texto = request.form.get('texto')
-	 # Process the data (for example, print to the console or save to a file/database)
-    	print(f"Received submission: Nombre={nombre}, Email={email}, Numero={numero}, Asunto={asunto}, Texto={texto}")
-    
-    	# Respond back to the client
-   	 return "Thank you for your submission!"
+
+	if not nombre or not email or not numero or not asunto or not texto:
+		return jsonify({"error": "Faltan datos"}), 400
+	with open("datos.csv", "a", newline="", encoding="utf-8") as archivo:
+		escritor = csv.writer(archivo)
+		escritor.writerow([nombre, email, numero, asunto, texto])
+	return jsonify({"mensaje": "Datos guardados correctamente"}), 200
 
 if __name__ == '__main__':
     # Run on port 5000 so that ngrok can tunnel to it
