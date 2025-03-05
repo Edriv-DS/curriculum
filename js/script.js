@@ -107,7 +107,6 @@ document.getElementById("form").addEventListener("submit", function(event) {
     .then(data => {
 		document.getElementById("respuesta").innerText = data.mensaje;
 		document.getElementById("respuesta").style.color = "green";
-		consolo("Datos enviados correctamente. Gracias por escribir.");
     })
     .catch(error => {
 		document.getElementById("respuesta").innerText = "Error al enviar los datos";
