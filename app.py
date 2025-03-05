@@ -18,5 +18,6 @@ def submit():
 	return jsonify({"mensaje": "Datos guardados correctamente"}), 200
 
 if __name__ == '__main__':
-    # Run on port 5000 so that ngrok can tunnel to it
-    app.run(port=5000, debug=False)
+	from waitress import
+	serve(app, host="0.0.0.0", port=5000)
+    
