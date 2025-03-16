@@ -587,6 +587,10 @@ span {
 		font-size: 50%;
 	}
 
+	.home {
+		flex-direction: column;
+	}
+
 	.logo {
 	margin-right: 40rem;
 	font-size: 2.5rem;
@@ -610,6 +614,10 @@ span {
 }
 
 @media (max-width: 365px) {
+	.home {
+		flex-direction: column;
+	}
+	
 	.home-img {
 		width: 90vw;
 	}
