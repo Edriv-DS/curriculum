@@ -556,6 +556,11 @@ span {
 		width: 60vw;
 		
 	}
+
+	.header img {
+		height: 50px;
+		
+	}
 	
 	.skills h2 {
 		margin-bottom: 3rem;
@@ -581,6 +586,11 @@ span {
 		font-size: 50%;
 	}
 
+	.header img {
+		height: 50px;
+		
+	}
+
         .formulario form .input-box input {
 		width: 100%;
 	}
@@ -593,6 +603,11 @@ span {
 @media (max-width: 365px) {
 	.home-img {
 		width: 90vw;
+	}
+
+	.header img {
+		height: 50px;
+		
 	}
 	
 	.about-img img {
