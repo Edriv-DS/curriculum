@@ -453,6 +453,7 @@ span {
 	html {
 		font-size: 55%;
 	}
+
 }
 
 @media (max-width: 991px) {
@@ -586,9 +587,17 @@ span {
 		font-size: 50%;
 	}
 
+	.logo {
+	margin-right: 30rem;
+	font-size: 2.5rem;
+	color: var(--text-color);
+	font-weight: 600;
+	cursor: default;
+	
+	}
+
 	.header img {
 		height: 50px;
-		
 	}
 
         .formulario form .input-box input {
@@ -603,6 +612,15 @@ span {
 @media (max-width: 365px) {
 	.home-img {
 		width: 90vw;
+	}
+
+	.logo {
+	margin-right: 30rem;
+	font-size: 2.5rem;
+	color: var(--text-color);
+	font-weight: 600;
+	cursor: default;
+	
 	}
 
 	.header img {
