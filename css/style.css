@@ -587,6 +587,10 @@ span {
 		font-size: 50%;
 	}
 
+	#menu-icon {
+		display: block;
+	}
+
 	.home {
 		flex-direction: column;
 	}
@@ -616,6 +620,10 @@ span {
 @media (max-width: 365px) {
 	.home {
 		flex-direction: column;
+	}
+
+	#menu-icon {
+		display: block;
 	}
 	
 	.home-img {
