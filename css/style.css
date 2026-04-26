@@ -198,6 +198,7 @@ span {
 	align-items: center;
 	gap: 3rem;
 	background: var(--second-bg-color);
+	padding-bottom:80px;
 }
 
 /*=========================================== img2 ==============================================*/
@@ -233,6 +234,9 @@ span {
 }
 
 /***************************** Experience *******************************/
+.expe {
+	padding-bottom:80px;
+}
 
 .expe h3 {
 	font-size: 3rem;
@@ -254,6 +258,7 @@ span {
 
 .skills {
 	background: var(--second-bg-color); 
+	padding-bottom:80px;
 	
 }
 
