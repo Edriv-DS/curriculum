@@ -44,7 +44,7 @@ section {
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 2rem 9%;
+	padding: 2rem 7.5%;
 	background: var(--bg-color);
 	display: flex;
 	justify-content: space-between;
@@ -61,7 +61,7 @@ section {
 .logo {
 	font-size: 3rem;
 	color: var(--text-color);
-	font-weight: 600;
+	font-weight: 900;
 	cursor: default;
 	
 }
